@@ -1,0 +1,1 @@
+python lynda-dl.py -u 1301131 -p 4455 -o detroitpubliclibrary.org links.txt -d ./Courses
