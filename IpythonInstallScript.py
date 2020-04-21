@@ -17,8 +17,7 @@ if not os.path.exists("/opt/python3.8"):
   get_ipython().system_raw("sudo apt install python3.8")
   get_ipython().system_raw("sudo apt install python3-pip")
   get_ipython().system_raw("python3.8 -m pip install --upgrade pip setuptools wheel")
-  get_ipython().system_raw("git clone https://github.com/EricFunTrick/lynda_DL_Mine.git /root/.lynda_DL_Mine")
-    get_ipython().system_raw("rm -r /root/.skillshare_DL_Mine/lynda_DL_Mine.ipynb")
+  get_ipython().system_raw("git clone https://github.com/r0oth3x49/lynda-dl.git /root/.lynda_DL_Mine")
   clear_output()
 
 try:
